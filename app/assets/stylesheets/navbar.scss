@@ -1,0 +1,61 @@
+.navbar-app {
+  padding:1em 0;
+  background-color: #663399;
+  border-radius: 0 !important;
+
+  .navbar-brand {
+    color: #fff;
+    font-weight: bold;
+    font-size: 2em;
+    font-family: 'Permanent Marker', cursive;
+  }
+
+  .navbar-links {
+    background: none;
+    color: #fff;
+
+      &:hover {
+        background: none;
+      }
+  }
+}
+
+.navbar-form {
+  width: 33% !important;
+}
+
+@media (max-width: 991px) {
+  .navbar {
+    margin-bottom: 0px !important;
+  }
+}
+
+.search-input {
+  width: 80% !important;
+}
+
+.navbar-toggle .icon-bar {
+   background: #fff;
+   height: 4px !important;
+}
+
+#search-form-mobile {
+  padding: 1em;
+  background: darken(#663399, 10%);
+  display: flex;
+  justify-content: center;
+}
+
+.search-input-mobile {
+  width: 70% !important;
+}
+
+.nav-width {
+  width: 100%;
+}
+
+@media(max-width: 1277px){
+  .search-nav-desktop {
+    display: none;
+  }
+}
